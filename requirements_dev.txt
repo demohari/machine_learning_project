@@ -3,3 +3,7 @@ gunicorn
 sklearn
 pandas
 numpy
+
+#dev
+black
+jupyter-black
