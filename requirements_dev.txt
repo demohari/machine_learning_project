@@ -3,8 +3,10 @@ gunicorn
 sklearn
 pandas
 numpy
--e .
+pyYAML
+-e.
 
 #dev
 black
 jupyter-black
+ipykernel
