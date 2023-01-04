@@ -1,5 +1,5 @@
 training_pipeline_config:
-  pipeline_name: housing
+  pipeline_name: housingdata
   artifact_dir: artifact
 
 data_ingestion_config:
@@ -8,7 +8,7 @@ data_ingestion_config:
   tgz_download_dir: tgz_data
   ingested_dir: ingested_data
   ingested_train_dir: train
-  ingested_test_dir: test d
+  ingested_test_dir: test 
 
 
 

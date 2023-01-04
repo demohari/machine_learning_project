@@ -1,13 +1,16 @@
+
+
 import os
 from datetime import datetime
-
-ROOT_DIR = os.getcwd()  # CURENT WORKING DIRECTORY
-
+ROOT_DIR = os.getcwd()  #to get current working directory
 CONFIG_DIR = "config"
 CONFIG_FILE_NAME = "config.yaml"
-CONFIG_FILE_PATH = os.path.join(ROOT_DIR, CONFIG_DIR, CONFIG_FILE_NAME)
+CONFIG_FILE_PATH = os.path.join(ROOT_DIR,CONFIG_DIR,CONFIG_FILE_NAME)
 
-CURRENT_TIME_STAMP = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+CURRENT_TIME_STAMP = f"{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}"
+
+
 
 
 # Training pipeline related variable
@@ -26,3 +29,4 @@ DATA_INGESTION_TGZ_DOWNLOAD_DIR_KEY = "tgz_download_dir"
 DATA_INGESTION_INGESTED_DIR_NAME_KEY = "ingested_dir"
 DATA_INGESTION_TRAIN_DIR_KEY = "ingested_train_dir"
 DATA_INGESTION_TEST_DIR_KEY = "ingested_test_dir"
+
