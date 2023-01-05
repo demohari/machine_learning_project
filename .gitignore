@@ -130,3 +130,8 @@ dmypy.json
 .vscode/settings.json
 housingdata/artifact
 notebook/example.ipynb
+.idea/inspectionProfiles/profiles_settings.xml
+.vscode/launch.json
+.idea/vcs.xml
+.idea/modules.xml
+.idea/inspectionProfiles/Project_Default.xml
