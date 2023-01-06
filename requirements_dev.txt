@@ -4,7 +4,8 @@ scikit-learn
 pandas
 numpy
 pyYAML
-evidently 
+evidently
+dill
 -e .
 
 #dev
